@@ -12,7 +12,7 @@ app.use(express.json({ limit: '10mb' }))
 app.use(express.urlencoded({extended : true}))
 
 // cors middleware
-app.use(cors({ origin: 'http://localhost:5173/' }))
+app.use(cors({ origin: 'https://creatorships-mu.vercel.app' }))
 
 // logging middleware
 app.use(morgan("tiny"))
